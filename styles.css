@@ -1,0 +1,181 @@
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Tahoma', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #646363;
+    color:white;
+}
+/*la barre de navigation*/
+.navbar {
+    background-color: #2d2b2b;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.logo span{
+    color: #3cff00;
+    border-bottom: 3px solid white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0 ;
+    padding: 0;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+}
+/* Section Héros */
+.hero {
+    background-image: linear-gradient(rgba(113, 238, 75, 0.5), rgba(222, 223, 235, 0.473)),url('https://media-cdn.tripadvisor.com/media/photo-m/1280/15/9e/be/2d/acajou-restaurant.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    background-color: #3cff00;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Section Menu */
+.menu {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.menu-item {
+    background: #393b3bc1;
+    padding: 10px; 
+    max-width: 29%;
+}
+.menu-item img {
+    width: 300px;
+    height: 50%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.price {
+    font-weight: bold;
+    color: #ff6347;
+    font-size: 20px;
+}
+
+/* section a propos de nous */
+.about{
+  margin: 0 auto;
+  width: 80%;
+}
+.div_about {
+    display: flex;
+    margin: 0 20px ;
+}
+.div_about img {
+    width: 300px;
+    border-radius: 5px;
+}
+/* section contact */
+.contact h2 {
+    margin:20px;
+    font-size: 24px;
+}
+.contact {
+    margin: 0 auto ;
+    width: 80%;
+}
+.contact-form label {
+    display: block;
+    margin:20px;
+    font-weight: bold;
+}
+.contact-form input,
+ textarea {
+    width: 50%;
+    padding: 10px;
+    margin:10px 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form button {
+    color: #fff;
+    padding: 12px;
+    cursor: pointer;
+
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer .réseaux_sociaux a {
+    margin: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+ 
